@@ -1,0 +1,176 @@
+[0.021s] Invoking command in '/home/group10/ros2_ws/build/r2d10': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group10/install/control:/home/group10/install/my_arm_service:/home/group10/install/gst_pipeline:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/group10/ros2_ws/src/r2d10 -DCMAKE_INSTALL_PREFIX=/home/group10/ros2_ws/install/r2d10
+[0.214s] -- The C compiler identification is GNU 13.3.0
+[0.377s] -- The CXX compiler identification is GNU 13.3.0
+[0.411s] -- Detecting C compiler ABI info
+[0.567s] -- Detecting C compiler ABI info - done
+[0.581s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.582s] -- Detecting C compile features
+[0.582s] -- Detecting C compile features - done
+[0.598s] -- Detecting CXX compiler ABI info
+[0.766s] -- Detecting CXX compiler ABI info - done
+[0.780s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.780s] -- Detecting CXX compile features
+[0.781s] -- Detecting CXX compile features - done
+[0.813s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.128s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.377s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.484s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.518s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.779s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.791s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.993s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.029s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.068s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.238s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[2.244s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[2.749s] -- Found ros_gz_sim: 1.0.16 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[2.909s] -- Configuring done (2.9s)
+[2.918s] -- Generating done (0.0s)
+[2.921s] -- Build files have been written to: /home/group10/ros2_ws/build/r2d10
+[2.945s] Invoked command in '/home/group10/ros2_ws/build/r2d10' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group10/install/control:/home/group10/install/my_arm_service:/home/group10/install/gst_pipeline:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/group10/ros2_ws/src/r2d10 -DCMAKE_INSTALL_PREFIX=/home/group10/ros2_ws/install/r2d10
+[2.946s] Invoking command in '/home/group10/ros2_ws/build/r2d10': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group10/install/control:/home/group10/install/my_arm_service:/home/group10/install/gst_pipeline:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/group10/ros2_ws/build/r2d10 -- -j4 -l4
+[3.019s] Invoked command in '/home/group10/ros2_ws/build/r2d10' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group10/install/control:/home/group10/install/my_arm_service:/home/group10/install/gst_pipeline:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/group10/ros2_ws/build/r2d10 -- -j4 -l4
+[3.040s] Invoking command in '/home/group10/ros2_ws/build/r2d10': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group10/install/control:/home/group10/install/my_arm_service:/home/group10/install/gst_pipeline:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/group10/ros2_ws/build/r2d10
+[3.053s] -- Install configuration: ""
+[3.054s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/meshes
+[3.054s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/caster_1.stl
+[3.056s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/ultrasonic_left_1.stl
+[3.056s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/ultrasonic_right_1.stl
+[3.057s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/right_wheel_1.stl
+[3.057s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/base_link.stl
+[3.057s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/lidar_1.stl
+[3.059s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/ultrasonic_forward_1.stl
+[3.059s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/left_wheel_1.stl
+[3.060s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/urdf
+[3.060s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/urdf/materials.xacro
+[3.060s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/urdf/assembly_3.urdf
+[3.060s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/urdf/assembly_3.urdf.xacro
+[3.060s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/rviz
+[3.060s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/rviz/default.rviz
+[3.061s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds
+[3.061s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install
+[3.061s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/setup.bash
+[3.061s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/local_setup.bash
+[3.061s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/_local_setup_util_ps1.py
+[3.061s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/.colcon_install_layout
+[3.061s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/setup.sh
+[3.062s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/local_setup.sh
+[3.062s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/setup.ps1
+[3.062s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/local_setup.ps1
+[3.062s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/setup.zsh
+[3.062s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/COLCON_IGNORE
+[3.062s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/_local_setup_util_sh.py
+[3.063s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/local_setup.zsh
+[3.063s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models
+[3.063s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/floor materials
+[3.063s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/floor materials/meshes
+[3.064s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/floor materials/meshes/未命名.dae
+[3.064s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/floor materials/materials
+[3.064s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/floor materials/materials/textures
+[3.064s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/floor materials/materials/textures/floor_texture.png
+[3.065s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball
+[3.065s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/thumbnails
+[3.065s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/thumbnails/4.png
+[3.066s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/thumbnails/5.png
+[3.066s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/thumbnails/3.png
+[3.066s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/thumbnails/2.png
+[3.066s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/thumbnails/1.png
+[3.067s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/model.sdf
+[3.067s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/model.rsdf
+[3.067s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/model.config
+[3.067s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin
+[3.068s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/meshes
+[3.068s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/meshes/TrashBin_Diffuse.png
+[3.070s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/meshes/TrashBin.obj
+[3.070s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/meshes/TrashBin.mtl
+[3.071s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/thumbnails
+[3.071s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/thumbnails/4.png
+[3.071s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/thumbnails/5.png
+[3.072s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/thumbnails/3.png
+[3.073s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/thumbnails/2.png
+[3.074s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/thumbnails/1.png
+[3.074s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/model.sdf
+[3.074s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/model.config
+[3.074s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor
+[3.075s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/meshes
+[3.075s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/meshes/walk.dae
+[3.080s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/thumbnails
+[3.080s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/thumbnails/4.png
+[3.081s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/thumbnails/5.png
+[3.081s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/thumbnails/3.png
+[3.081s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/thumbnails/2.png
+[3.082s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/thumbnails/1.png
+[3.083s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/model.sdf
+[3.083s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/model.config
+[3.083s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk
+[3.084s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/meshes
+[3.084s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/meshes/desk.dae
+[3.088s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/thumbnails
+[3.088s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/thumbnails/Desk.png
+[3.093s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/materials
+[3.093s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/materials/textures
+[3.093s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/materials/textures/Desk_Roughness.png
+[3.096s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/materials/textures/Desk_Albedo.png
+[3.103s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/materials/textures/Desk_Normal.png
+[3.105s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/model.sdf
+[3.105s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/model.config
+[3.105s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf
+[3.105s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/thumbnails
+[3.105s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/thumbnails/4.png
+[3.106s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/thumbnails/5.png
+[3.106s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/thumbnails/3.png
+[3.107s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/thumbnails/2.png
+[3.108s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/thumbnails/1.png
+[3.108s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/model-1_3.sdf
+[3.109s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/bookshelf_diffuse.jpg
+[3.111s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/model-1_4.sdf
+[3.111s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/model.sdf
+[3.113s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/model.config
+[3.113s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/model-1_2.sdf
+[3.113s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair
+[3.113s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/meshes
+[3.113s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/meshes/officechair.dae
+[3.114s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/thumbnails
+[3.114s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/thumbnails/OfficeChair.png
+[3.117s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/materials
+[3.117s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/materials/textures
+[3.117s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/materials/textures/OfficeChair_Normal.png
+[3.128s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/materials/textures/OfficeChair_Metalness.png
+[3.129s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/materials/textures/OfficeChair_Roughness.png
+[3.138s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/materials/textures/OfficeChair_Albedo.png
+[3.146s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/model.sdf
+[3.146s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/model.config
+[3.146s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/log
+[3.147s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/log/build_2025-10-29_10-49-16
+[3.147s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/log/build_2025-10-29_10-49-16/logger_all.log
+[3.147s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/log/build_2025-10-29_10-49-16/events.log
+[3.147s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/log/latest_build
+[3.148s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/log/COLCON_IGNORE
+[3.148s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/log/latest
+[3.148s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/church.sdf
+[3.149s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/build
+[3.149s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/build/.built_by
+[3.149s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/build/COLCON_IGNORE
+[3.149s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/launch
+[3.149s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/launch/updated_launchfile.py
+[3.149s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/launch/worldlaunch2.py
+[3.150s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/launch/world.launch.py
+[3.150s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/launch/launchfile2.py
+[3.150s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/package_run_dependencies/r2d10
+[3.150s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/parent_prefix_path/r2d10
+[3.150s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/ament_prefix_path.sh
+[3.150s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/ament_prefix_path.dsv
+[3.151s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/path.sh
+[3.151s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/path.dsv
+[3.151s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.bash
+[3.151s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.sh
+[3.151s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.zsh
+[3.152s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.dsv
+[3.152s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/package.dsv
+[3.152s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/packages/r2d10
+[3.152s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/cmake/r2d10Config.cmake
+[3.152s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/cmake/r2d10Config-version.cmake
+[3.152s] -- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/package.xml
+[3.155s] Invoked command in '/home/group10/ros2_ws/build/r2d10' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group10/install/control:/home/group10/install/my_arm_service:/home/group10/install/gst_pipeline:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/group10/ros2_ws/build/r2d10
