@@ -9,10 +9,11 @@ def generate_launch_description():
 
     pkg_share = get_package_share_directory('r2d10')
 
-    world_path = os.path.join(pkg_share, 'worlds', 'church.sdf')
+    world_path = os.path.join(pkg_share, 'worlds', 'church_simple.sdf')
+    models_path = os.path.join(get_package_share_directory('r2d10'), 'worlds', 'models')
+    os.environ['GZ_SIM_RESOURCE_PATH'] = models_path + ':' + os.environ.get('GZ_SIM_RESOURCE_PATH', '')
     robot_path = os.path.join(pkg_share, 'urdf', 'assembly_3.urdf')
     gazebo_model_path = os.path.join(pkg_share, 'meshes')
-
     ros_gz_sim_share = get_package_share_directory('ros_gz_sim')
     gz_sim_launch = os.path.join(ros_gz_sim_share, 'launch', 'gz_sim.launch.py')
 
@@ -30,7 +31,7 @@ def generate_launch_description():
         arguments=[
             '--file', robot_path,
             '-name', 'r2d10',
-            '-x', '0.0', '-y', '0.0', '-z', '0.0'
+            '-x', '7.5', '-y', '1', '-z', '1.0'
         ]
     )
 
