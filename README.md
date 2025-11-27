@@ -47,6 +47,8 @@ Furniture too complex, assignement brief tells us -
 
 SAVING to the repo
 ---
+cd ~/ros2_ws 
+
 git add .
 
 git commit -m "Write whatever changes you made here"
