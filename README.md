@@ -13,6 +13,7 @@ ros2 launch r2d10 launchfile2.py
 cd ~/ros2_ws
 source install/setup.bash
 ros2 launch r2d10 worldlaunch2.py
+[This world file needs some more terminals to function]
 
 needs seperate terminals for:
 
@@ -24,5 +25,5 @@ ros2 run joint_state_publisher joint_state_publisher
 
 launch slam and teleop 
 ---
-----
+
 [New launch file reduces all seperate terminals into one simple launch file- slam_complete_launch - runs all extra terminals in one.] - needs rvis fixed and debugged
