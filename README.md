@@ -60,6 +60,7 @@ Furniture too complex, assignement brief tells us -
 <img width="254" height="324" alt="Screenshot 2025-11-27 at 9 06 02 AM" src="https://github.com/user-attachments/assets/989ba02f-06df-4380-96e1-27028800350d" />
 
 
+//
 [New launch file reduces all seperate terminals into one simple launch file- slam_complete_launch - runs all *extra terminals* in one.] - needs rvis fixed and general debugging. 
 
 SAVING to the repo
