@@ -55,7 +55,8 @@ Furniture too complex, assignement brief tells us -
 4. at least one sphere,
 5. at least one cube,
    
-["You can use objects from the Gazebo database." although these models are still heavy on gpu, recommended to use simplified shape models as seen below"],
+["You can use objects from the Gazebo database." although these models are still heavy on gpu, recommended to use simplified shape models as seen below"]
+
 <img width="254" height="324" alt="Screenshot 2025-11-27 at 9 06 02 AM" src="https://github.com/user-attachments/assets/989ba02f-06df-4380-96e1-27028800350d" />
 
 
