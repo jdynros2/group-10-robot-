@@ -40,7 +40,7 @@ ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_descrip
 
 ros2 run joint_state_publisher joint_state_publisher
 
-cd~/Downloads
+cd~/Downloads 
 
 python3 odom_to_tf.py
 
