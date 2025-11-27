@@ -2,14 +2,16 @@ AUTONOMOUS NAVIGATION ROBOT 'R2D10'
 
 MOST RECENT
 How to run:
-
+---
 [ROBOT LOADED INTO RVIS]
+--
 cd ~/ros2_ws
 source install/setup.bash
 ros2 launch r2d10 launchfile2.py
 
 
 [ROBOT LOADED INTO WORLD]
+--
 cd ~/ros2_ws
 source install/setup.bash
 ros2 launch r2d10 worldlaunch2.py
