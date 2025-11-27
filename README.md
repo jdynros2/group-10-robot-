@@ -48,8 +48,12 @@ Furniture too complex, assignement brief tells us -
 SAVING to the repo
 ---
 git add .
+
 git commit -m "Write whatever changes you made here"
+
 git branch --set-upstream-to=origin/main main
+
 git pull --rebase
+
 git push
 
