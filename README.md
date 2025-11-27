@@ -29,7 +29,9 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 [This world file needs some more terminals to drive the robot]
 Seperate terminals for:
+
 *
+
 ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom
 
 ros2 run ros_gz_bridge parameter_bridge /odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry /cmd_vel@geometry_msgs/msg/Twist]gz.msgs.Twist /scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan /clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock
@@ -41,6 +43,7 @@ ros2 run joint_state_publisher joint_state_publisher
 cd~/Downloads
 
 python3 odom_to_tf.py
+
 *
 
 Problems and work to be done 
