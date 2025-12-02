@@ -1,0 +1,37 @@
+[1.025s] Invoking command in '/home/group10/ros2_ws/src/cmd_vel_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/group10/ros2_ws/build/cmd_vel_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group10/ros2_ws/install/cmd_vel_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmd_vel_bridge build --build-base /home/group10/ros2_ws/build/cmd_vel_bridge/build install --record /home/group10/ros2_ws/build/cmd_vel_bridge/install.log --single-version-externally-managed install_data
+[1.357s] running egg_info
+[1.358s] creating ../../build/cmd_vel_bridge/cmd_vel_bridge.egg-info
+[1.383s] writing ../../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/PKG-INFO
+[1.383s] writing dependency_links to ../../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/dependency_links.txt
+[1.384s] writing entry points to ../../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/entry_points.txt
+[1.384s] writing requirements to ../../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/requires.txt
+[1.384s] writing top-level names to ../../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/top_level.txt
+[1.384s] writing manifest file '../../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/SOURCES.txt'
+[1.435s] reading manifest file '../../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/SOURCES.txt'
+[1.436s] writing manifest file '../../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/SOURCES.txt'
+[1.436s] running build
+[1.436s] running build_py
+[1.436s] creating /home/group10/ros2_ws/build/cmd_vel_bridge/build
+[1.436s] creating /home/group10/ros2_ws/build/cmd_vel_bridge/build/lib
+[1.437s] creating /home/group10/ros2_ws/build/cmd_vel_bridge/build/lib/cmd_vel_bridge
+[1.437s] copying cmd_vel_bridge/cmd_vel_bridge.py -> /home/group10/ros2_ws/build/cmd_vel_bridge/build/lib/cmd_vel_bridge
+[1.437s] copying cmd_vel_bridge/__init__.py -> /home/group10/ros2_ws/build/cmd_vel_bridge/build/lib/cmd_vel_bridge
+[1.437s] running install
+[1.446s] running install_lib
+[1.470s] creating /home/group10/ros2_ws/install/cmd_vel_bridge/lib/python3.12/site-packages/cmd_vel_bridge
+[1.470s] copying /home/group10/ros2_ws/build/cmd_vel_bridge/build/lib/cmd_vel_bridge/cmd_vel_bridge.py -> /home/group10/ros2_ws/install/cmd_vel_bridge/lib/python3.12/site-packages/cmd_vel_bridge
+[1.470s] copying /home/group10/ros2_ws/build/cmd_vel_bridge/build/lib/cmd_vel_bridge/__init__.py -> /home/group10/ros2_ws/install/cmd_vel_bridge/lib/python3.12/site-packages/cmd_vel_bridge
+[1.471s] byte-compiling /home/group10/ros2_ws/install/cmd_vel_bridge/lib/python3.12/site-packages/cmd_vel_bridge/cmd_vel_bridge.py to cmd_vel_bridge.cpython-312.pyc
+[1.471s] byte-compiling /home/group10/ros2_ws/install/cmd_vel_bridge/lib/python3.12/site-packages/cmd_vel_bridge/__init__.py to __init__.cpython-312.pyc
+[1.471s] running install_data
+[1.472s] creating /home/group10/ros2_ws/install/cmd_vel_bridge/share/ament_index
+[1.472s] creating /home/group10/ros2_ws/install/cmd_vel_bridge/share/ament_index/resource_index
+[1.472s] creating /home/group10/ros2_ws/install/cmd_vel_bridge/share/ament_index/resource_index/packages
+[1.472s] copying resource/cmd_vel_bridge -> /home/group10/ros2_ws/install/cmd_vel_bridge/share/ament_index/resource_index/packages
+[1.472s] copying package.xml -> /home/group10/ros2_ws/install/cmd_vel_bridge/share/cmd_vel_bridge
+[1.472s] running install_egg_info
+[1.499s] Copying ../../build/cmd_vel_bridge/cmd_vel_bridge.egg-info to /home/group10/ros2_ws/install/cmd_vel_bridge/lib/python3.12/site-packages/cmd_vel_bridge-0.0.0-py3.12.egg-info
+[1.500s] running install_scripts
+[1.666s] Installing cmd_vel_bridge script to /home/group10/ros2_ws/install/cmd_vel_bridge/lib/cmd_vel_bridge
+[1.666s] writing list of installed files to '/home/group10/ros2_ws/build/cmd_vel_bridge/install.log'
+[1.699s] Invoked command in '/home/group10/ros2_ws/src/cmd_vel_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/group10/ros2_ws/build/cmd_vel_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group10/ros2_ws/install/cmd_vel_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmd_vel_bridge build --build-base /home/group10/ros2_ws/build/cmd_vel_bridge/build install --record /home/group10/ros2_ws/build/cmd_vel_bridge/install.log --single-version-externally-managed install_data

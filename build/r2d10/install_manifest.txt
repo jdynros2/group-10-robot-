@@ -1,174 +1,169 @@
-/home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/caster_1.stl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/ultrasonic_left_1.stl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/ultrasonic_right_1.stl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/right_wheel_1.stl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/base_link.stl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/lidar_1.stl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/ultrasonic_forward_1.stl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/meshes/left_wheel_1.stl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/urdf/materials.xacro
-/home/group10/ros2_ws/install/r2d10/share/r2d10/urdf/assembly_3.urdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/urdf/assembly_3.urdf.xacro
-/home/group10/ros2_ws/install/r2d10/share/r2d10/rviz/default.rviz
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/setup.bash
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/local_setup.bash
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/_local_setup_util_ps1.py
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/.colcon_install_layout
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/setup.sh
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/local_setup.sh
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/setup.ps1
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/local_setup.ps1
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/setup.zsh
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/COLCON_IGNORE
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/_local_setup_util_sh.py
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/install/local_setup.zsh
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/floor materials/meshes/未命名.dae
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/floor materials/materials/textures/floor_texture.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchencountertop/meshes/KitchenCountertop_Diffuse.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchencountertop/meshes/KitchenCountertop.mtl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchencountertop/meshes/KitchenCountertop.obj
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchencountertop/thumbnails/4.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchencountertop/thumbnails/5.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchencountertop/thumbnails/3.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchencountertop/thumbnails/2.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchencountertop/thumbnails/1.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchencountertop/model.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchencountertop/model.config
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/fridge/meshes/Fridge.obj
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/fridge/meshes/Fridge_Col.obj
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/fridge/meshes/Fridge_Col.mtl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/fridge/meshes/Fridge_Diffuse.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/fridge/meshes/Fridge.mtl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/fridge/thumbnails/4.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/fridge/thumbnails/5.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/fridge/thumbnails/3.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/fridge/thumbnails/2.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/fridge/thumbnails/1.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/fridge/model.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/fridge/model.config
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/shower/meshes/Shower.mtl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/shower/meshes/Shower.obj
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/shower/meshes/ShowerDiffuse.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/shower/thumbnails/4.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/shower/thumbnails/5.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/shower/thumbnails/3.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/shower/thumbnails/2.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/shower/thumbnails/1.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/shower/model.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/shower/model.config
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/thumbnails/4.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/thumbnails/5.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/thumbnails/3.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/thumbnails/2.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/thumbnails/1.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/model.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/model.rsdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/cricket ball/model.config
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/meshes/BathroomSink_Col.obj
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/meshes/BathroomSink_Col.mtl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/meshes/BathroomSink_Metal.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/meshes/BathroomSink_Diffuse.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/meshes/BathroomSink_Rough.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/meshes/BathroomSink.mtl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/meshes/BathroomSink.obj
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/thumbnails/4.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/thumbnails/5.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/thumbnails/3.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/thumbnails/2.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/thumbnails/1.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/model.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bathroomsink/model.config
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/meshes/TrashBin_Diffuse.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/meshes/TrashBin.obj
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/meshes/TrashBin.mtl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/thumbnails/4.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/thumbnails/5.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/thumbnails/3.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/thumbnails/2.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/thumbnails/1.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/model.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/trashbin/model.config
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/meshes/walk.dae
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/thumbnails/4.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/thumbnails/5.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/thumbnails/3.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/thumbnails/2.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/thumbnails/1.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/model.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/actor/model.config
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchensink/meshes/kitchenSink.mtl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchensink/meshes/kitchenSink.obj
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchensink/thumbnails/4.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchensink/thumbnails/5.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchensink/thumbnails/3.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchensink/thumbnails/2.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchensink/thumbnails/1.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchensink/model.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/kitchensink/model.config
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/standard toilet/meshes/toilet.dae
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/standard toilet/thumbnails/Toilet.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/standard toilet/materials/textures/Toilet_Albedo.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/standard toilet/materials/textures/Toilet_Metalness.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/standard toilet/materials/textures/Toilet_Roughness.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/standard toilet/materials/textures/Toilet_Normal.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/standard toilet/model.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/standard toilet/model.config
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/whitecabinet/meshes/WhiteCabinet.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/whitecabinet/meshes/WhiteCabinet.mtl
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/whitecabinet/meshes/WhiteCabinet.obj
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/whitecabinet/thumbnails/4.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/whitecabinet/thumbnails/5.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/whitecabinet/thumbnails/3.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/whitecabinet/thumbnails/2.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/whitecabinet/thumbnails/1.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/whitecabinet/model.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/whitecabinet/model.config
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/meshes/desk.dae
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/thumbnails/Desk.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/materials/textures/Desk_Roughness.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/materials/textures/Desk_Albedo.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/materials/textures/Desk_Normal.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/model.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office desk/model.config
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/thumbnails/4.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/thumbnails/5.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/thumbnails/3.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/thumbnails/2.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/thumbnails/1.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/model-1_3.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/bookshelf_diffuse.jpg
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/model-1_4.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/model.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/model.config
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/bookshelf/model-1_2.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/meshes/officechair.dae
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/thumbnails/OfficeChair.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/materials/textures/OfficeChair_Normal.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/materials/textures/OfficeChair_Metalness.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/materials/textures/OfficeChair_Roughness.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/materials/textures/OfficeChair_Albedo.png
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/model.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/models/office chair/model.config
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/church_simple.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/log/build_2025-10-29_10-49-16/logger_all.log
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/log/build_2025-10-29_10-49-16/events.log
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/log/latest_build
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/log/COLCON_IGNORE
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/log/latest
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/church.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/build/.built_by
-/home/group10/ros2_ws/install/r2d10/share/r2d10/worlds/build/COLCON_IGNORE
-/home/group10/ros2_ws/install/r2d10/share/r2d10/launch/updated_launchfile.py
-/home/group10/ros2_ws/install/r2d10/share/r2d10/launch/worldlaunch2.py
-/home/group10/ros2_ws/install/r2d10/share/r2d10/launch/world.launch.py
-/home/group10/ros2_ws/install/r2d10/share/r2d10/launch/launchfile2.py
-/home/group10/ros2_ws/install/r2d10/share/r2d10/launch/slam_complete_launch.py
+/home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/caster_1.stl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/ultrasonic_left_1.stl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/ultrasonic_right_1.stl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/right_wheel_1.stl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/base_link.stl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/lidar_1.stl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/ultrasonic_forward_1.stl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/left_wheel_1.stl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/materials.xacro
+/home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/assembly_3.urdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/assembly_3.urdf.xacro
+/home/group10/ros2_ws/install/r2d10/share/r2d10//rviz/default.rviz
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.bash
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.bash
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/_local_setup_util_ps1.py
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/.colcon_install_layout
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.sh
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.sh
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.ps1
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.ps1
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.zsh
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/COLCON_IGNORE
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/_local_setup_util_sh.py
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.zsh
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials/meshes/未命名.dae
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials/materials/textures/floor_texture.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes/KitchenCountertop_Diffuse.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes/KitchenCountertop.mtl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes/KitchenCountertop.obj
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/4.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/5.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/3.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/2.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/1.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/model.config
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge.obj
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge_Col.obj
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge_Col.mtl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge_Diffuse.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge.mtl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/4.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/5.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/3.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/2.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/1.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/model.config
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/meshes/Shower.mtl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/meshes/Shower.obj
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/meshes/ShowerDiffuse.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/4.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/5.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/3.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/2.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/1.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/model.config
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/4.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/5.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/3.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/2.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/1.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/model.rsdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/model.config
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Col.obj
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Col.mtl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Metal.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Diffuse.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Rough.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink.mtl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink.obj
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/4.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/5.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/3.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/2.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/1.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/model.config
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/meshes/TrashBin_Diffuse.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/meshes/TrashBin.obj
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/meshes/TrashBin.mtl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/4.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/5.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/3.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/2.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/1.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/model.config
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/meshes/walk.dae
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/4.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/5.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/3.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/2.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/1.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/model.config
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/meshes/kitchenSink.mtl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/meshes/kitchenSink.obj
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/4.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/5.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/3.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/2.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/1.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/model.config
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/meshes/toilet.dae
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/thumbnails/Toilet.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Albedo.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Metalness.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Roughness.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Normal.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/model.config
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/meshes/WhiteCabinet.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/meshes/WhiteCabinet.mtl
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/meshes/WhiteCabinet.obj
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/4.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/5.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/3.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/2.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/1.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/model.config
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/meshes/desk.dae
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/thumbnails/Desk.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials/textures/Desk_Roughness.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials/textures/Desk_Albedo.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials/textures/Desk_Normal.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/model.config
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/4.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/5.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/3.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/2.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/1.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model-1_3.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/bookshelf_diffuse.jpg
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model-1_4.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model.config
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model-1_2.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/meshes/officechair.dae
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/thumbnails/OfficeChair.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Normal.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Metalness.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Roughness.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Albedo.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/model.config
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/church_simple.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/build_2025-10-29_10-49-16/logger_all.log
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/build_2025-10-29_10-49-16/events.log
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest_build
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/COLCON_IGNORE
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/church.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/build/.built_by
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/build/COLCON_IGNORE
+/home/group10/ros2_ws/install/r2d10/share/r2d10//launch/updated_launchfile.py
+/home/group10/ros2_ws/install/r2d10/share/r2d10//launch/worldlaunch2.py
+/home/group10/ros2_ws/install/r2d10/share/r2d10//launch/__pycache__/worldlaunch2_updated.cpython-312.pyc
+/home/group10/ros2_ws/install/r2d10/share/r2d10//launch/world.launch.py
+/home/group10/ros2_ws/install/r2d10/share/r2d10//launch/launchfile2.py
 /home/group10/ros2_ws/install/r2d10/lib/r2d10/odom_to_tf.py
-/home/group10/ros2_ws/install/r2d10/share/r2d10/launch/updated_launchfile.py
-/home/group10/ros2_ws/install/r2d10/share/r2d10/launch/worldlaunch2.py
-/home/group10/ros2_ws/install/r2d10/share/r2d10/launch/world.launch.py
-/home/group10/ros2_ws/install/r2d10/share/r2d10/launch/launchfile2.py
-/home/group10/ros2_ws/install/r2d10/share/r2d10/launch/slam_complete_launch.py
 /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/package_run_dependencies/r2d10
 /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/parent_prefix_path/r2d10
 /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/ament_prefix_path.sh

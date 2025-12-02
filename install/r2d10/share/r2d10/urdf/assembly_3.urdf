@@ -234,8 +234,7 @@
 
 <!-- LIDAR SENSOR -->
 <gazebo reference="lidar_1">
-  <sensor name="lidar_sensor" type="gpu_lidar">
-    <topic>scan</topic>
+  <sensor name="lidar_1" type="gpu_lidar">
     <update_rate>20</update_rate>
     <lidar>
       <scan>
@@ -260,13 +259,15 @@
     </lidar>
     <always_on>1</always_on>
     <visualize>true</visualize>
-  </sensor>
-</gazebo>
 
 <!-- ULTRASONIC FORWARD SENSOR -->
 <gazebo reference="ultrasonic_forward_1">
   <sensor name="ultrasonic_forward_sensor" type="gpu_ray">
     <topic>ultrasonic_forward</topic>
+    <ros>
+  <frame_name>ultrasonic_forward_1</frame_name>
+  <use_tf_prefix>false</use_tf_prefix>
+</ros>
     <update_rate>10</update_rate>
     <ray>
       <scan>
@@ -298,6 +299,10 @@
 <gazebo reference="ultrasonic_left_1">
   <sensor name="ultrasonic_left_sensor" type="gpu_ray">
     <topic>ultrasonic_left</topic>
+    <ros>
+  <frame_name>ultrasonic_left_1</frame_name>
+  <use_tf_prefix>false</use_tf_prefix>
+</ros>
     <update_rate>10</update_rate>
     <ray>
       <scan>
@@ -329,6 +334,10 @@
 <gazebo reference="ultrasonic_right_1">
   <sensor name="ultrasonic_right_sensor" type="gpu_ray">
     <topic>ultrasonic_right</topic>
+    <ros>
+  <frame_name>ultrasonic_right_1</frame_name>
+  <use_tf_prefix>false</use_tf_prefix>
+</ros>
     <update_rate>10</update_rate>
     <ray>
       <scan>
@@ -353,6 +362,14 @@
     </ray>
     <always_on>1</always_on>
     <visualize>true</visualize>
+  </sensor>
+</gazebo>
+
+    <!-- ROS2 topic plugin -->
+    <plugin name="gazebo_ros_laser" filename="libgazebo_ros_laser.so">
+      <topicName>scan</topicName>
+      <frameName>lidar_1</frameName>
+    </plugin>
   </sensor>
 </gazebo>
 
