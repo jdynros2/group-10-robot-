@@ -1,0 +1,216 @@
+[0.250s] Invoking command in '/home/group10/ros2_ws/build/r2d10': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group10/ros2_ws/install/cmd_vel_bridge:/home/group10/install/control:/home/group10/install/my_arm_service:/home/group10/install/gst_pipeline:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/group10/ros2_ws/src/r2d10 -DCMAKE_INSTALL_PREFIX=/home/group10/ros2_ws/install/r2d10
+[0.266s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.501s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.509s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.540s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.551s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.580s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.651s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.653s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.727s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.800s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[0.801s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[1.012s] -- Found ros_gz_sim: 1.0.16 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[1.117s] -- Configuring done (0.9s)
+[1.124s] -- Generating done (0.0s)
+[1.126s] -- Build files have been written to: /home/group10/ros2_ws/build/r2d10
+[1.135s] Invoked command in '/home/group10/ros2_ws/build/r2d10' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group10/ros2_ws/install/cmd_vel_bridge:/home/group10/install/control:/home/group10/install/my_arm_service:/home/group10/install/gst_pipeline:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/group10/ros2_ws/src/r2d10 -DCMAKE_INSTALL_PREFIX=/home/group10/ros2_ws/install/r2d10
+[1.136s] Invoking command in '/home/group10/ros2_ws/build/r2d10': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group10/ros2_ws/install/cmd_vel_bridge:/home/group10/install/control:/home/group10/install/my_arm_service:/home/group10/install/gst_pipeline:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/group10/ros2_ws/build/r2d10 -- -j4 -l4
+[1.189s] Invoked command in '/home/group10/ros2_ws/build/r2d10' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group10/ros2_ws/install/cmd_vel_bridge:/home/group10/install/control:/home/group10/install/my_arm_service:/home/group10/install/gst_pipeline:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/group10/ros2_ws/build/r2d10 -- -j4 -l4
+[1.202s] Invoking command in '/home/group10/ros2_ws/build/r2d10': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group10/ros2_ws/install/cmd_vel_bridge:/home/group10/install/control:/home/group10/install/my_arm_service:/home/group10/install/gst_pipeline:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/group10/ros2_ws/build/r2d10
+[1.213s] -- Install configuration: ""
+[1.213s] -- Execute custom install script
+[1.214s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/base_link.stl
+[1.214s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/caster_1.stl
+[1.214s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/left_wheel_1.stl
+[1.214s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/lidar_1.stl
+[1.214s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/right_wheel_1.stl
+[1.214s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/ultrasonic_forward_1.stl
+[1.215s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/ultrasonic_left_1.stl
+[1.215s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/ultrasonic_right_1.stl
+[1.215s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/assembly_3.urdf
+[1.215s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/assembly_3.urdf.xacro
+[1.215s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/materials.xacro
+[1.215s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//rviz/default.rviz
+[1.217s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[1.217s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[1.218s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[1.218s]   Use the cmake_policy command to set the policy and suppress this warning.
+[1.218s] Call Stack (most recent call first):
+[1.218s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[1.219s]   cmake_install.cmake:46 (include)
+[1.219s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.219s] [0m
+[1.219s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/build/.built_by
+[1.219s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/build/COLCON_IGNORE
+[1.219s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/church.sdf
+[1.219s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/church_simple.sdf
+[1.219s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/.colcon_install_layout
+[1.219s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/COLCON_IGNORE
+[1.219s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/_local_setup_util_ps1.py
+[1.220s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/_local_setup_util_sh.py
+[1.220s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.bash
+[1.220s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.ps1
+[1.220s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.sh
+[1.220s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.zsh
+[1.220s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.bash
+[1.220s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.ps1
+[1.220s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.sh
+[1.220s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.zsh
+[1.221s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/COLCON_IGNORE
+[1.221s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/build_2025-10-29_10-49-16/events.log
+[1.221s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/build_2025-10-29_10-49-16/logger_all.log
+[1.221s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest/events.log
+[1.221s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest/logger_all.log
+[1.221s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest_build/events.log
+[1.221s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest_build/logger_all.log
+[1.221s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/meshes/walk.dae
+[1.221s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/model.config
+[1.222s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/model.sdf
+[1.222s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/1.png
+[1.222s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/2.png
+[1.222s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/3.png
+[1.222s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/4.png
+[1.222s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/5.png
+[1.222s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink.mtl
+[1.222s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink.obj
+[1.222s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Col.mtl
+[1.222s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Col.obj
+[1.223s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Diffuse.png
+[1.223s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Metal.png
+[1.223s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Rough.png
+[1.223s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/model.config
+[1.223s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/model.sdf
+[1.223s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/1.png
+[1.223s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/2.png
+[1.223s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/3.png
+[1.223s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/4.png
+[1.223s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/5.png
+[1.224s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/bookshelf_diffuse.jpg
+[1.224s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model-1_2.sdf
+[1.224s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model-1_3.sdf
+[1.224s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model-1_4.sdf
+[1.224s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model.config
+[1.224s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model.sdf
+[1.224s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/1.png
+[1.224s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/2.png
+[1.224s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/3.png
+[1.225s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/4.png
+[1.225s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/5.png
+[1.225s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/model.config
+[1.225s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/model.rsdf
+[1.225s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/model.sdf
+[1.225s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/1.png
+[1.225s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/2.png
+[1.225s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/3.png
+[1.226s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/4.png
+[1.226s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/5.png
+[1.226s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials/materials/textures/floor_texture.png
+[1.226s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials/meshes/未命名.dae
+[1.226s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge.mtl
+[1.226s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge.obj
+[1.226s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge_Col.mtl
+[1.226s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge_Col.obj
+[1.227s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge_Diffuse.png
+[1.227s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/model.config
+[1.227s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/model.sdf
+[1.227s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/1.png
+[1.227s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/2.png
+[1.227s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/3.png
+[1.227s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/4.png
+[1.227s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/5.png
+[1.228s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes/KitchenCountertop.mtl
+[1.228s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes/KitchenCountertop.obj
+[1.228s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes/KitchenCountertop_Diffuse.png
+[1.228s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/model.config
+[1.228s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/model.sdf
+[1.228s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/1.png
+[1.228s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/2.png
+[1.229s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/3.png
+[1.229s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/4.png
+[1.229s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/5.png
+[1.229s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/meshes/kitchenSink.mtl
+[1.229s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/meshes/kitchenSink.obj
+[1.229s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/model.config
+[1.229s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/model.sdf
+[1.229s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/1.png
+[1.230s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/2.png
+[1.230s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/3.png
+[1.230s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/4.png
+[1.230s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/5.png
+[1.230s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Albedo.png
+[1.230s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Metalness.png
+[1.230s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Normal.png
+[1.230s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Roughness.png
+[1.231s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/meshes/officechair.dae
+[1.231s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/model.config
+[1.231s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/model.sdf
+[1.231s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/thumbnails/OfficeChair.png
+[1.231s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials/textures/Desk_Albedo.png
+[1.231s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials/textures/Desk_Normal.png
+[1.231s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials/textures/Desk_Roughness.png
+[1.232s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/meshes/desk.dae
+[1.232s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/model.config
+[1.232s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/model.sdf
+[1.232s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/thumbnails/Desk.png
+[1.232s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/meshes/Shower.mtl
+[1.232s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/meshes/Shower.obj
+[1.232s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/meshes/ShowerDiffuse.png
+[1.232s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/model.config
+[1.233s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/model.sdf
+[1.233s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/1.png
+[1.233s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/2.png
+[1.233s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/3.png
+[1.233s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/4.png
+[1.233s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/5.png
+[1.233s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Albedo.png
+[1.233s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Metalness.png
+[1.234s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Normal.png
+[1.234s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Roughness.png
+[1.234s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/meshes/toilet.dae
+[1.234s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/model.config
+[1.234s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/model.sdf
+[1.234s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/thumbnails/Toilet.png
+[1.234s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/meshes/TrashBin.mtl
+[1.235s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/meshes/TrashBin.obj
+[1.235s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/meshes/TrashBin_Diffuse.png
+[1.235s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/model.config
+[1.235s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/model.sdf
+[1.235s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/1.png
+[1.235s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/2.png
+[1.235s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/3.png
+[1.235s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/4.png
+[1.236s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/5.png
+[1.236s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/meshes/WhiteCabinet.mtl
+[1.236s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/meshes/WhiteCabinet.obj
+[1.236s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/meshes/WhiteCabinet.png
+[1.236s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/model.config
+[1.236s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/model.sdf
+[1.236s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/1.png
+[1.236s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/2.png
+[1.237s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/3.png
+[1.237s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/4.png
+[1.237s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/5.png
+[1.237s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/__pycache__/worldlaunch2_updated.cpython-312.pyc
+[1.237s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/launchfile2.py
+[1.238s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/updated_launchfile.py
+[1.238s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/world.launch.py
+[1.238s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/worldlaunch2.py
+[1.238s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/lib/r2d10/odom_to_tf.py
+[1.238s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/package_run_dependencies/r2d10
+[1.238s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/parent_prefix_path/r2d10
+[1.238s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/ament_prefix_path.sh
+[1.239s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/ament_prefix_path.dsv
+[1.239s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/path.sh
+[1.239s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/path.dsv
+[1.239s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.bash
+[1.239s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.sh
+[1.239s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.zsh
+[1.240s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.dsv
+[1.240s] -- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10/package.dsv
+[1.251s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/packages/r2d10
+[1.252s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10/cmake/r2d10Config.cmake
+[1.252s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10/cmake/r2d10Config-version.cmake
+[1.252s] -- Up-to-date symlink: /home/group10/ros2_ws/install/r2d10/share/r2d10/package.xml
+[1.255s] Invoked command in '/home/group10/ros2_ws/build/r2d10' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group10/ros2_ws/install/cmd_vel_bridge:/home/group10/install/control:/home/group10/install/my_arm_service:/home/group10/install/gst_pipeline:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/group10/ros2_ws/build/r2d10

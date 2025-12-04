@@ -1,0 +1,270 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+-- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+-- Found ros_gz_sim: 1.0.16 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+-- Configuring done (2.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/group10/ros2_ws/build/r2d10
+-- Install configuration: ""
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/caster_1.stl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/ultrasonic_left_1.stl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/ultrasonic_right_1.stl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/right_wheel_1.stl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/base_link.stl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/lidar_1.stl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/ultrasonic_forward_1.stl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/left_wheel_1.stl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//urdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/materials.xacro
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/assembly_3.urdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/assembly_3.urdf.xacro
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//rviz
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//rviz/default.rviz
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.bash
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.bash
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/_local_setup_util_ps1.py
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/.colcon_install_layout
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.sh
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.sh
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.ps1
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.ps1
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.zsh
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/COLCON_IGNORE
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/_local_setup_util_sh.py
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.zsh
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials/meshes
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials/meshes/未命名.dae
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials/materials
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials/materials/textures
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials/materials/textures/floor_texture.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes/KitchenCountertop_Diffuse.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes/KitchenCountertop.mtl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes/KitchenCountertop.obj
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/4.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/5.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/3.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/2.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/1.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/model.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/model.config
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge.obj
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge_Col.obj
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge_Col.mtl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge_Diffuse.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge.mtl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/4.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/5.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/3.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/2.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/1.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/model.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/model.config
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/meshes
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/meshes/Shower.mtl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/meshes/Shower.obj
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/meshes/ShowerDiffuse.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/4.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/5.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/3.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/2.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/1.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/model.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/model.config
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/4.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/5.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/3.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/2.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/1.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/model.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/model.rsdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/model.config
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Col.obj
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Col.mtl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Metal.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Diffuse.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Rough.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink.mtl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink.obj
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/4.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/5.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/3.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/2.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/1.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/model.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/model.config
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/meshes
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/meshes/TrashBin_Diffuse.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/meshes/TrashBin.obj
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/meshes/TrashBin.mtl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/4.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/5.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/3.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/2.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/1.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/model.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/model.config
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/meshes
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/meshes/walk.dae
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/4.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/5.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/3.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/2.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/1.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/model.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/model.config
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/meshes
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/meshes/kitchenSink.mtl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/meshes/kitchenSink.obj
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/4.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/5.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/3.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/2.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/1.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/model.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/model.config
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/meshes
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/meshes/toilet.dae
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/thumbnails
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/thumbnails/Toilet.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Albedo.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Metalness.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Roughness.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Normal.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/model.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/model.config
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/meshes
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/meshes/WhiteCabinet.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/meshes/WhiteCabinet.mtl
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/meshes/WhiteCabinet.obj
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/4.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/5.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/3.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/2.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/1.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/model.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/model.config
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/meshes
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/meshes/desk.dae
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/thumbnails
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/thumbnails/Desk.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials/textures
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials/textures/Desk_Roughness.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials/textures/Desk_Albedo.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials/textures/Desk_Normal.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/model.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/model.config
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/4.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/5.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/3.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/2.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/1.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model-1_3.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/bookshelf_diffuse.jpg
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model-1_4.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model.config
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model-1_2.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/meshes
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/meshes/officechair.dae
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/thumbnails
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/thumbnails/OfficeChair.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Normal.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Metalness.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Roughness.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Albedo.png
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/model.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/model.config
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/church_simple.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/build_2025-10-29_10-49-16
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/build_2025-10-29_10-49-16/logger_all.log
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/build_2025-10-29_10-49-16/events.log
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest_build
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/COLCON_IGNORE
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/church.sdf
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/build
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/build/.built_by
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/build/COLCON_IGNORE
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/updated_launchfile.py
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/worldlaunch2.py
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/__pycache__
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/__pycache__/worldlaunch2_updated.cpython-312.pyc
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/world.launch.py
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/launchfile2.py
+-- Installing: /home/group10/ros2_ws/install/r2d10/lib/r2d10/odom_to_tf.py
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/package_run_dependencies/r2d10
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/parent_prefix_path/r2d10
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/ament_prefix_path.sh
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/ament_prefix_path.dsv
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/path.sh
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/path.dsv
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.bash
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.sh
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.zsh
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.dsv
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/package.dsv
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/packages/r2d10
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/cmake/r2d10Config.cmake
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/cmake/r2d10Config-version.cmake
+-- Installing: /home/group10/ros2_ws/install/r2d10/share/r2d10/package.xml

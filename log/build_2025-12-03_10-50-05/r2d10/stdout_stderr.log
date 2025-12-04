@@ -1,0 +1,225 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+-- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+-- Found ros_gz_sim: 1.0.16 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+-- Configuring done (2.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/group10/ros2_ws/build/r2d10
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/base_link.stl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/caster_1.stl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/left_wheel_1.stl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/lidar_1.stl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/right_wheel_1.stl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/ultrasonic_forward_1.stl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/ultrasonic_left_1.stl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/ultrasonic_right_1.stl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/assembly_3.urdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/assembly_3.urdf.xacro
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/materials.xacro
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//rviz/default.rviz
+[33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/build/.built_by
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/build/COLCON_IGNORE
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/church.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/church_simple.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/.colcon_install_layout
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/COLCON_IGNORE
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/_local_setup_util_ps1.py
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/_local_setup_util_sh.py
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.bash
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.ps1
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.sh
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.zsh
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.bash
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.ps1
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.sh
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.zsh
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/COLCON_IGNORE
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/build_2025-10-29_10-49-16/events.log
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/build_2025-10-29_10-49-16/logger_all.log
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest/events.log
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest/logger_all.log
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest_build/events.log
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest_build/logger_all.log
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/meshes/walk.dae
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/model.config
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/model.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/1.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/2.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/3.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/4.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/actor/thumbnails/5.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink.mtl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink.obj
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Col.mtl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Col.obj
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Diffuse.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Metal.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/meshes/BathroomSink_Rough.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/model.config
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/model.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/1.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/2.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/3.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/4.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bathroomsink/thumbnails/5.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/bookshelf_diffuse.jpg
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model-1_2.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model-1_3.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model-1_4.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model.config
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/1.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/2.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/3.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/4.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/thumbnails/5.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/model.config
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/model.rsdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/model.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/1.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/2.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/3.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/4.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/cricket ball/thumbnails/5.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials/materials/textures/floor_texture.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials/meshes/未命名.dae
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge.mtl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge.obj
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge_Col.mtl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge_Col.obj
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/meshes/Fridge_Diffuse.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/model.config
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/model.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/1.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/2.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/3.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/4.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/fridge/thumbnails/5.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes/KitchenCountertop.mtl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes/KitchenCountertop.obj
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes/KitchenCountertop_Diffuse.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/model.config
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/model.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/1.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/2.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/3.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/4.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/thumbnails/5.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/meshes/kitchenSink.mtl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/meshes/kitchenSink.obj
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/model.config
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/model.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/1.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/2.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/3.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/4.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchensink/thumbnails/5.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Albedo.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Metalness.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Normal.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Roughness.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/meshes/officechair.dae
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/model.config
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/model.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/thumbnails/OfficeChair.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials/textures/Desk_Albedo.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials/textures/Desk_Normal.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/materials/textures/Desk_Roughness.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/meshes/desk.dae
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/model.config
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/model.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office desk/thumbnails/Desk.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/meshes/Shower.mtl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/meshes/Shower.obj
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/meshes/ShowerDiffuse.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/model.config
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/model.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/1.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/2.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/3.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/4.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/shower/thumbnails/5.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Albedo.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Metalness.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Normal.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/materials/textures/Toilet_Roughness.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/meshes/toilet.dae
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/model.config
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/model.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/standard toilet/thumbnails/Toilet.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/meshes/TrashBin.mtl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/meshes/TrashBin.obj
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/meshes/TrashBin_Diffuse.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/model.config
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/model.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/1.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/2.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/3.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/4.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/trashbin/thumbnails/5.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/meshes/WhiteCabinet.mtl
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/meshes/WhiteCabinet.obj
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/meshes/WhiteCabinet.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/model.config
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/model.sdf
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/1.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/2.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/3.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/4.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/whitecabinet/thumbnails/5.png
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/__pycache__/worldlaunch2_updated.cpython-312.pyc
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/launchfile2.py
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/updated_launchfile.py
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/world.launch.py
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/worldlaunch2.py
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/lib/r2d10/odom_to_tf.py
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/package_run_dependencies/r2d10
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/parent_prefix_path/r2d10
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/ament_prefix_path.sh
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/ament_prefix_path.dsv
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/path.sh
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/path.dsv
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.bash
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.sh
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.zsh
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10/local_setup.dsv
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10/package.dsv
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/packages/r2d10
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10/cmake/r2d10Config.cmake
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10/cmake/r2d10Config-version.cmake
+-- Symlinking: /home/group10/ros2_ws/install/r2d10/share/r2d10/package.xml
