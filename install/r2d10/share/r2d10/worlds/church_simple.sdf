@@ -1,1 +1,11 @@
-/home/group10/ros2_ws/src/r2d10/worlds/church_simple.sdf
+<sdf version="1.9">
+  <world name="church.simple">
+   
+    <light name="sun" type="directional">
+      <pose>0 0 10 0 0 0</pose>
+      <cast_shadows>false</cast_shadows>
+      <diffuse>0.85 0.85 0.85 1</diffuse>
+      <direction>-0.4 0.2 -1.0</direction>
+    </light>
+  </world>
+</sdf>

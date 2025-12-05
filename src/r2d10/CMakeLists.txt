@@ -20,6 +20,7 @@ install(
   rviz
   worlds
   launch 
+  config
   DESTINATION share/${PROJECT_NAME}/
 )
 

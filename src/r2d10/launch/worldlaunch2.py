@@ -61,18 +61,17 @@ def generate_launch_description():
     )
     
     # ========== ROS-GAZEBO BRIDGE ==========
+    bridge_config = os.path.join(pkg_share, 'config', 'r2d10_bridge.yaml')
+
+# ========== ROS-GAZEBO BRIDGE ==========
     bridge = Node(
-        package='ros_gz_bridge',
-        executable='parameter_bridge',
-        arguments=[
-            '/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry',
-            '/cmd_vel@geometry_msgs/msg/Twist]gz.msgs.Twist',
-            '/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan',
-            '/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
-        ],
-        output='screen',
-        parameters=[{'use_sim_time': True}]
-    )
+    package='ros_gz_bridge',
+    executable='parameter_bridge',
+    arguments=['--ros-args', '-p', f'config_file:={bridge_config}'],
+    output='screen',
+    parameters=[{'use_sim_time': True}]
+)
+    
 # Add after bridge definition
     static_tf_lidar = Node(
     package='tf2_ros',

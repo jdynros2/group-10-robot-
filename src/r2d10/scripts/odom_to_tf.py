@@ -12,14 +12,14 @@ class OdomToTF(Node):
         self.tf_broadcaster = TransformBroadcaster(self)
         self.subscription = self.create_subscription(
             Odometry,
-            '/odometry',
+            '/odom',
             self.odom_callback,
             10)
         self.get_logger().info('Odometry to TF broadcaster started')
 
     def odom_callback(self, msg):
         t = TransformStamped()
-        t.header.stamp = self.get_clock().now().to_msg()
+        t.header.stamp = msg.header.stamp 
         t.header.frame_id = 'odom'
         t.child_frame_id = 'base_link'
         

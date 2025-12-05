@@ -256,6 +256,7 @@
     <visualize>true</visualize>
   </sensor>
 </gazebo>
+
 <!-- ULTRASONIC FORWARD SENSOR -->
 <gazebo reference="ultrasonic_forward_1">
   <sensor name="ultrasonic_forward_sensor" type="gpu_ray">
@@ -346,6 +347,58 @@
     </ray>
     <always_on>true</always_on>
     <visualize>true</visualize>
+  </sensor>
+</gazebo>
+
+<!-- IMU SENSOR (attached to base_link) -->
+<gazebo reference="base_link">
+  <sensor name="imu_sensor" type="imu">
+    <topic>/imu</topic>
+    <update_rate>100</update_rate>
+    <imu>
+      <angular_velocity>
+        <x>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>2e-4</stddev>
+          </noise>
+        </x>
+        <y>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>2e-4</stddev>
+          </noise>
+        </y>
+        <z>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>2e-4</stddev>
+          </noise>
+        </z>
+      </angular_velocity>
+      <linear_acceleration>
+        <x>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>1.7e-2</stddev>
+          </noise>
+        </x>
+        <y>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>1.7e-2</stddev>
+          </noise>
+        </y>
+        <z>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>1.7e-2</stddev>
+          </noise>
+        </z>
+      </linear_acceleration>
+    </imu>
+    <always_on>true</always_on>
+    <visualize>false</visualize>
   </sensor>
 </gazebo>
 

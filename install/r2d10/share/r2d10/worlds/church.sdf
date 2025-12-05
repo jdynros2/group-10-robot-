@@ -1,1 +1,390 @@
-/home/group10/ros2_ws/src/r2d10/worlds/church.sdf
+<?xml version="1.0"?>
+<sdf version="1.8">
+  <world name="church">
+    <!-- 物理与系统插件 -->
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+    <render_engine>ogre2</render_engine>
+     </plugin>
+
+    <include>
+      <uri>model://bookshelf</uri>   
+      <name>bookshelf_01</name>      
+      <pose>-6.7 2.7 0 0 0 0</pose>      
+    </include>
+    <include>
+      <uri>model://office desk</uri>
+      <name>office_desk_01</name>
+      <pose>-8.5 2.5 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://office chair</uri>
+      <name>office_chair_01</name>
+      <pose>-8.5 1.5 0 0 0 0</pose>
+    </include> 
+  
+
+  <!-- ===== 人物模型 =====
+    <actor name="actor">
+      <pose>8 0 0 0 0 3.142</pose>
+      <skin>
+        <filename>model://actor/meshes/walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walk"> 
+        <filename>model://actor/meshes/walk.dae</filename> 
+        <scale>1.0</scale>
+      </animation>    
+      <script>
+      <loop>false</loop>
+      <delay_start>0</delay_start>
+      <auto_start>true</auto_start>
+
+        <trajectory id="0" type="walk" tension="0.6">
+          <waypoint>
+            <time>0.0</time>
+            <pose>8.0 0.0 0.0 0 0 3.142</pose></waypoint>
+        </trajectory>
+      </script>
+    </actor> -->
+    <!-- ===== sphere模型 ===== -->
+    <model name="sphere_model">
+      <pose>-3 -3 0.25 0 0 0</pose>
+      <static>false</static>
+      <link name="link_sphere">
+
+        <collision name="collision_sphere">
+          <geometry>
+            <sphere>
+              <radius>0.75</radius>
+            </sphere>
+          </geometry>
+        </collision>
+
+        <visual name="visual_sphere">
+          <geometry>
+            <sphere>
+              <radius>0.75</radius>
+            </sphere>
+          </geometry>
+          <material>
+            <ambient>0.2 0.5 0.8 1</ambient>
+            <diffuse>0.3 0.7 1 1</diffuse>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+    <!-- ===== box模型 ===== -->
+    <model name="box_model">
+      <pose>2.5 0 0.5 0 0 0</pose>
+      <static>false</static>
+      <link name="link_box">
+
+        <collision name="collision_box">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual_box">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.2 0.5 0.8 1</ambient>
+            <diffuse>1 0.3 0.3 1</diffuse>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+    <!-- 光源 -->
+    <light type="directional" name="sun">
+      <pose>0 0 10 0 0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <diffuse>0.85 0.85 0.85 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.4 0.2 -1.0</direction>
+    </light>
+
+<!-- 30×30 地面（完整可用版） -->
+    <model name="floor">
+      <static>true</static>
+      <link name="floor_01">
+
+        <!-- 碰撞体：让地面可承载 -->
+        <collision name="col">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>20 20</size>
+            </plane>
+          </geometry>
+        </collision>
+
+        <!-- 可视体：灰色 -->
+        <visual name="vis">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>20 20</size>
+            </plane>
+          </geometry>
+          <material>
+            <diffuse>0.6 0.6 0.6 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- ============== 外墙 + 内墙 + 门窗 + 楼梯 ============== -->
+    <model name="walls_compound">
+      <static>true</static>
+
+      <!-- ===== 中矩形 12×12（原点在其中心） ===== -->
+      <!-- 顶边：(-6,6)→(6,6) -->
+      <link name="mid_north">
+        <pose>0 6 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>12 0.2 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>12 0.2 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+
+      <!-- 右侧外墙：仅保留上段 (6,6)→(6,0)-->
+      <link name="mid_east_upper">
+        <pose>6 3 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>0.2 6 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.2 6 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+
+      <!-- 底边：(-6,-6)→(6,-6)，中间留红(中心x=4.5,宽1) -->
+      <!-- 中左段：(-3.5,-6)→(3.9,-6) 长7.4 -->
+      <link name="mid_south_wall">
+        <pose>-1 -6 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>10 0.2 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>10 0.2 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+      <!-- 中右段：(5.1,-6)→(6,-6) 长0.9 -->
+      <link name="mid_south_right_piece">
+        <pose>5.55 -6 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>0.9 0.2 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.9 0.2 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+
+      <!-- 左侧外墙：只保留上段与下段；删除中段（接壤处开口） -->
+      <!-- 上段：(-6,6)→(-6,3) -->
+      <link name="mid_west_upper">
+        <pose>-6 4.5 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>0.2 3 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.2 3 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+
+      <!-- 下段：(-6,-3)→(-6,-6) -->
+      <link name="mid_west_lower">
+        <pose>-6 -4.5 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>0.2 3 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.2 3 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+
+      <!-- ===== 右矩形 3×6：x∈[6,9], y∈[-6,0]（与中矩形接缝不立墙） ===== -->
+      <!-- 顶边开 1 m 蓝门：中心 (7.5,0)，拆成两段 -->
+      <link name="right_top_left_piece">
+        <pose>6.5 0 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>1.0 0.2 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>1.0 0.2 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+      <link name="right_top_right_piece">
+        <pose>8.5 0 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>1.0 0.2 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>1.0 0.2 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+      <!-- 右侧：(9,0)→(9,-6) -->
+      <link name="right_east">
+        <pose>9 -3 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>0.2 6 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.2 6 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+      <!-- 底边：(9,-6)→(6,-6) -->
+      <link name="right_south">
+        <pose>7.5 -6 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>3 0.2 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>3 0.2 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+
+      <!-- 右矩形 黄色内墙（水平），高 2.0 m，长 2.8 m -->
+      <link name="right_inner_yellow">
+        <pose>6.0 -3 1.0 0 0 0</pose>
+        <collision name="col"><geometry><box><size>6.0 0.2 2.0</size></box></geometry></collision>
+        <visual name="vis">
+          <geometry><box><size>6.0 0.2 2.0</size></box></geometry>
+          <material><diffuse>1.0 0.9 0.1 1</diffuse></material>
+        </visual>
+      </link>
+
+      <link name="bottom_inner_yellow1">
+        <pose>3 -3.5 1.0 0 0 0</pose>
+        <collision name="col"><geometry><box><size>0.2 1 2.0</size></box></geometry></collision>
+        <visual name="vis">
+          <geometry><box><size>0.2 1 2.0</size></box></geometry>
+          <material><diffuse>1.0 0.9 0.1 1</diffuse></material>
+        </visual>
+      </link>
+
+      <link name="bottom_inner_yellow2">
+        <pose>3 -5.5 1.0 0 0 0</pose>
+        <collision name="col"><geometry><box><size>0.2 1 2.0</size></box></geometry></collision>
+        <visual name="vis">
+          <geometry><box><size>0.2 1 2.0</size></box></geometry>
+          <material><diffuse>1.0 0.9 0.1 1</diffuse></material>
+        </visual>
+      </link>
+
+      <!-- ===== 中矩形左侧内墙（x=-6，y: 3 → -3，高 2.0 m），中间留 1.0 m 门洞 ===== -->
+      <!-- 上段：y = 3 → 0.5，长度 2.5 m -->
+      <link name="mid_west_inner_upper">
+        <pose>-6 1.75 1.0 0 0 0</pose>
+        <collision name="col"><geometry><box><size>0.2 2.5 2.0</size></box></geometry></collision>
+        <visual name="vis">
+          <geometry><box><size>0.2 2.5 2.0</size></box></geometry>
+          <material><diffuse>1.0 0.9 0.1 1</diffuse></material>
+        </visual>
+      </link>
+
+      <!-- 下段：y = -0.5 → -3，长度 2.5 m -->
+      <link name="mid_west_inner_lower">
+        <pose>-6 -1.75 1.0 0 0 0</pose>
+        <collision name="col"><geometry><box><size>0.2 2.5 2.0</size></box></geometry></collision>
+        <visual name="vis">
+          <geometry><box><size>0.2 2.5 2.0</size></box></geometry>
+          <material><diffuse>1.0 0.9 0.1 1</diffuse></material>
+        </visual>
+      </link>
+
+      <!-- 门洞可视化：蓝色门，宽 1.0 m × 高 2.0 m -->
+      <link name="door_mid_west_inner_visual">
+        <pose>-6.01 0 1.0 0 0 0</pose>
+        <visual name="vis">
+          <geometry><box><size>0.02 1.0 2.0</size></box></geometry>
+          <material><diffuse>0.1 0.45 1.0 1</diffuse></material>
+        </visual>
+      </link>
+
+      <link name="door_bathroom_inner_visual">
+        <pose>3 -4.5 1.0 0 0 0</pose>
+        <visual name="vis">
+          <geometry><box><size>0.02 1.0 2.0</size></box></geometry>
+          <material><diffuse>0.1 0.45 1.0 1</diffuse></material>
+        </visual>
+      </link>
+
+      <!-- ===== 左矩形 4×6：x∈[-10,-6], y∈[-3,3]（与中矩形接缝开口） ===== -->
+      <!-- 顶边：(-10,3)→(-6,3) -->
+      <link name="left_north">
+        <pose>-8 3 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>4 0.2 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>4 0.2 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+      <!-- 左侧边（带蓝门开口） -->
+      <link name="left_west_bottom_piece">
+        <pose>-10 -1.75 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>0.2 2.5 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.2 2.5 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+      <link name="left_west_top_piece">
+        <pose>-10 1.75 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>0.2 2.5 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.2 2.5 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+      <!-- 底边：(-10,-3)→(-6,-3) -->
+      <link name="left_south">
+        <pose>-8 -3 1.4 0 0 0</pose>
+        <collision name="col"><geometry><box><size>4 0.2 2.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>4 0.2 2.8</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material></visual>
+      </link>
+
+      <!-- ===== 2个门（蓝色，仅视觉）与一个窗口 ===== -->
+      <!-- 门1：右矩形顶边中点，宽 1 m，高 2 m -->
+      <link name="door_right_top_visual">
+        <pose>7.5 0.01 1.0 0 0 0</pose>
+        <visual name="vis">
+          <geometry><box><size>1.0 0.02 2.0</size></box></geometry>
+          <material><diffuse>0.1 0.45 1.0 1</diffuse></material>
+        </visual>
+      </link>
+      
+      <!-- 窗口：中矩形底边右侧（中心 x=4.5，y=-6），宽 1 m、高 1 m -->
+      <link name="window_mid_south_visual">
+        <pose>4.5 -6 0.7 0 0 0</pose>
+        <collision name="col">
+          <geometry>
+      <!-- 宽 1.0 m，厚 0.2 m，高 2.8 m -->
+            <box>
+              <size>1.0 0.2 2.8</size>
+            </box>
+          </geometry>
+        </collision>
+      <visual name="vis">
+          <geometry><box><size>1.2 0.2 1.4</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material>
+        </visual>
+      </link>
+
+<!-- 窗口：左矩形右侧（中心 x=-10，y=0），宽 1 m、高 1 m -->
+      <link name="window_west_visual">
+        <pose>-10 0 0.7 0 0 0</pose>
+        <collision name="col">
+          <geometry>
+      <!-- 宽 1.0 m，厚 0.2 m，高 2.8 m -->
+            <box>
+              <size>0.2 1 1.4</size>
+            </box>
+          </geometry>
+        </collision>
+      <visual name="vis">
+          <geometry><box><size>0.2 1 1.4</size></box></geometry>
+          <material><diffuse>0.95 0.95 0.95 1</diffuse></material>
+        </visual>
+      </link>
+
+      <!-- ===== 梯形台阶楼梯：10 级台阶，宽 2.5（x），踏步 0.5（y），踢面 0.3（z） ===== -->
+      <!-- 台阶范围 y: 1.0 → 6.0（贴中矩形顶墙 y=6），z: 0 → 3.0 -->
+      <link name="stair_step_0"><pose>4.5 1.25 0.15 0 0 0</pose><collision name="col"><geometry><box><size>3 0.5 0.3</size></box></geometry></collision><visual name="vis"><geometry><box><size>2.5 0.5 0.3</size></box></geometry><material><diffuse>0.7 0.7 0.75 1</diffuse></material></visual></link>
+      <link name="stair_step_1"><pose>4.5 1.75 0.45 0 0 0</pose><collision name="col"><geometry><box><size>3 0.5 0.3</size></box></geometry></collision><visual name="vis"><geometry><box><size>2.5 0.5 0.3</size></box></geometry><material><diffuse>0.7 0.7 0.75 1</diffuse></material></visual></link>
+      <link name="stair_step_2"><pose>4.5 2.25 0.75 0 0 0</pose><collision name="col"><geometry><box><size>3 0.5 0.3</size></box></geometry></collision><visual name="vis"><geometry><box><size>2.5 0.5 0.3</size></box></geometry><material><diffuse>0.7 0.7 0.75 1</diffuse></material></visual></link>
+      <link name="stair_step_3"><pose>4.5 2.75 1.05 0 0 0</pose><collision name="col"><geometry><box><size>3 0.5 0.3</size></box></geometry></collision><visual name="vis"><geometry><box><size>2.5 0.5 0.3</size></box></geometry><material><diffuse>0.7 0.7 0.75 1</diffuse></material></visual></link>
+      <link name="stair_step_4"><pose>4.5 3.25 1.35 0 0 0</pose><collision name="col"><geometry><box><size>3 0.5 0.3</size></box></geometry></collision><visual name="vis"><geometry><box><size>2.5 0.5 0.3</size></box></geometry><material><diffuse>0.7 0.7 0.75 1</diffuse></material></visual></link>
+      <link name="stair_step_5"><pose>4.5 3.75 1.65 0 0 0</pose><collision name="col"><geometry><box><size>3 0.5 0.3</size></box></geometry></collision><visual name="vis"><geometry><box><size>2.5 0.5 0.3</size></box></geometry><material><diffuse>0.7 0.7 0.75 1</diffuse></material></visual></link>
+      <link name="stair_step_6"><pose>4.5 4.25 1.95 0 0 0</pose><collision name="col"><geometry><box><size>3 0.5 0.3</size></box></geometry></collision><visual name="vis"><geometry><box><size>2.5 0.5 0.3</size></box></geometry><material><diffuse>0.7 0.7 0.75 1</diffuse></material></visual></link>
+      <link name="stair_step_7"><pose>4.5 4.75 2.25 0 0 0</pose><collision name="col"><geometry><box><size>3 0.5 0.3</size></box></geometry></collision><visual name="vis"><geometry><box><size>2.5 0.5 0.3</size></box></geometry><material><diffuse>0.7 0.7 0.75 1</diffuse></material></visual></link>
+      <link name="stair_step_8"><pose>4.5 5.25 2.55 0 0 0</pose><collision name="col"><geometry><box><size>3 0.5 0.3</size></box></geometry></collision><visual name="vis"><geometry><box><size>2.5 0.5 0.3</size></box></geometry><material><diffuse>0.7 0.7 0.75 1</diffuse></material></visual></link>
+      <link name="stair_step_9"><pose>4.5 5.75 2.85 0 0 0</pose><collision name="col"><geometry><box><size>3 0.5 0.3</size></box></geometry></collision><visual name="vis"><geometry><box><size>2.5 0.5 0.3</size></box></geometry><material><diffuse>0.7 0.7 0.75 1</diffuse></material></visual></link>
+    </model>
+  </world>
+</sdf>
