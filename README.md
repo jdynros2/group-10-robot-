@@ -27,7 +27,6 @@ ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True base_frame:=b
 
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
-rvis
 
 
 
@@ -43,8 +42,6 @@ cd ~/ros2_ws
 git add .
 
 git commit -m "Write whatever changes you made here"
-
-git pull --rebase
 
 git push
 
