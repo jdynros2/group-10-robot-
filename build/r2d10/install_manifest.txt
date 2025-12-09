@@ -6,8 +6,8 @@
 /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/lidar_1.stl
 /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/ultrasonic_forward_1.stl
 /home/group10/ros2_ws/install/r2d10/share/r2d10//meshes/left_wheel_1.stl
-/home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/materials.xacro
-/home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/assembly_3.urdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/r2d10.gazebo
+/home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/inertial_macros.xacro
 /home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/assembly_3.urdf.xacro
 /home/group10/ros2_ws/install/r2d10/share/r2d10//rviz/default.rviz
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.bash
@@ -163,8 +163,10 @@
 /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/__pycache__/worldlaunch2_updated.cpython-312.pyc
 /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/world.launch.py
 /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/launchfile2.py
+/home/group10/ros2_ws/install/r2d10/share/r2d10//launch/statepublish.py
 /home/group10/ros2_ws/install/r2d10/share/r2d10//config/r2d10_bridge.yaml
-/home/group10/ros2_ws/install/r2d10/lib/r2d10/odom_to_tf.py
+/home/group10/ros2_ws/install/r2d10/share/r2d10//config/mapper_params.yaml
+/home/group10/ros2_ws/install/r2d10/share/r2d10//config/ekf.yaml
 /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/package_run_dependencies/r2d10
 /home/group10/ros2_ws/install/r2d10/share/ament_index/resource_index/parent_prefix_path/r2d10
 /home/group10/ros2_ws/install/r2d10/share/r2d10/environment/ament_prefix_path.sh

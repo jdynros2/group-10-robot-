@@ -1,52 +1,113 @@
 import os
-from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument
-from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
+from launch import LaunchDescription
+from launch.conditions import IfCondition
 from ament_index_python.packages import get_package_share_directory
-
+from launch.substitutions import LaunchConfiguration
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, GroupAction
 
 def generate_launch_description():
 
-    use_sim_time = LaunchConfiguration('use_sim_time', default='true')
-    pkg_path = get_package_share_directory('r2d10')
+    # Package name
+    package_name='r2d10'
 
-    robot_path = os.path.join(pkg_path, 'urdf', 'assembly_3.urdf')
-    rviz_config_path = os.path.join(pkg_path, 'rviz', 'default.rviz')
+    pkg_r2d10 = get_package_share_directory(package_name)
+    os.environ["GZ_SIM_RESOURCE_PATH"] = pkg_r2d10
 
-    with open(robot_path, 'r') as infp:
-        robot_description_content = infp.read()
+    # Launch configurations
+    world = LaunchConfiguration('world')
+    rviz = LaunchConfiguration('rviz')
 
-    robot_state_publisher = Node(
-        package='robot_state_publisher',
-        executable='robot_state_publisher',
+    # Path to default world 
+    world_path = os.path.join(get_package_share_directory(package_name),'worlds', 'church.sdf')
+
+    # Launch Arguments
+    declare_world = DeclareLaunchArgument(
+        name='world', default_value=world_path,
+        description='Full path to the world model file to load')
+    
+    declare_rviz = DeclareLaunchArgument(
+        name='rviz', default_value='True',
+        description='Opens rviz is set to True')
+
+    # Launch Robot State Publisher Node
+    urdf_path = os.path.join(get_package_share_directory(package_name),'urdf','assembly_3.urdf.xacro')
+    rsp = IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(
+                    get_package_share_directory(package_name),'launch','statepublish.py'
+                )]), launch_arguments={'use_sim_time': 'true', 'urdf': urdf_path}.items()
+    )
+
+    # Launch the gazebo server to initialize the simulation
+    gazebo_server = IncludeLaunchDescription(
+    PythonLaunchDescriptionSource([os.path.join(
+        get_package_share_directory('ros_gz_sim'), 'launch', 'gz_sim.launch.py'
+    )]), launch_arguments={'gz_args': ['-r -s -v1 ', world], 'on_exit_shutdown': 'true'}.items()
+)
+
+    # Always launch the gazebo client to visualize the simulation
+    gazebo_client = IncludeLaunchDescription(
+                    PythonLaunchDescriptionSource([os.path.join(
+                        get_package_share_directory('ros_gz_sim'), 'launch', 'gz_sim.launch.py'
+                    )]), launch_arguments={'gz_args': '-g '}.items()
+    )
+
+    # Run the spawner node from the gazebo_ros package. 
+    spawn_r2d10 = Node(
+                        package='ros_gz_sim', 
+                        executable='create',
+                        arguments=['-topic', 'robot_description',
+                                   '-name', 'r2d10',
+                                   '-z', '0.2'],
+                        output='screen'
+    )
+
+    # Launch the Gazebo-ROS bridge
+    bridge_params = os.path.join(get_package_share_directory(package_name),'config','r2d10_bridge.yaml')
+    ros_gz_bridge = Node(
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
+        arguments=[
+            '--ros-args',
+            '-p',
+            f'config_file:={bridge_params}',]
+    )
+    
+    # Launch Rviz with diff bot rviz file
+    rviz_config_file = os.path.join(get_package_share_directory(package_name), 'rviz', 'default.rviz')
+    rviz2 = GroupAction(
+        condition=IfCondition(rviz),
+        actions=[Node(
+                    package='rviz2',
+                    executable='rviz2',
+                    arguments=['-d', rviz_config_file],
+                    output='screen',)]
+    )
+
+    ekf_node = Node(
+        package='robot_localization',
+        executable='ekf_node',
+        name='ekf_filter_node',
         output='screen',
-        parameters=[{'robot_description': robot_description_content},
-                    {'use_sim_time': use_sim_time}
-        ]
+        parameters=[
+            os.path.join(get_package_share_directory(package_name), 'config', 'ekf.yaml'),
+            {'use_sim_time': LaunchConfiguration('use_sim_time')},
+             ]
     )
 
-    joint_state_publisher = Node(
-        package='joint_state_publisher',
-        executable='joint_state_publisher',
-        output='screen'
-    )
-
-    rviz = Node(
-        package='rviz2',
-        executable='rviz2',
-        arguments=['-d', rviz_config_path],
-        output='screen',
-        parameters=[{'use_sim_time': use_sim_time}]
-    )
-
+    # Launch them all!
     return LaunchDescription([
-        DeclareLaunchArgument(
-            'use_sim_time',
-            default_value='true',
-            description='Use simulation (Gazebo) clock if true'
-        ),
-        robot_state_publisher,
-        joint_state_publisher,
-        rviz
+        # Declare launch arguments
+        declare_rviz,
+        declare_world,
+
+        # Launch the nodes
+        # rviz2,
+        rsp,
+        gazebo_server,
+        gazebo_client,
+        ros_gz_bridge,
+        spawn_r2d10,
+        ekf_node,
     ])
