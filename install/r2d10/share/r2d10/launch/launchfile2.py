@@ -75,7 +75,7 @@ def generate_launch_description():
     )
     
     # Launch Rviz with diff bot rviz file
-    rviz_config_file = os.path.join(get_package_share_directory(package_name), 'rviz', 'default.rviz')
+    rviz_config_file = os.path.join(get_package_share_directory(package_name), 'rviz', 'mapping.rviz')
     rviz2 = GroupAction(
         condition=IfCondition(rviz),
         actions=[Node(

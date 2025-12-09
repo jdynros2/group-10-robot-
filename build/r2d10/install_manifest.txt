@@ -155,6 +155,7 @@
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest_build
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/COLCON_IGNORE
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/test.sdf
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/church.sdf
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/build/.built_by
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/build/COLCON_IGNORE

@@ -76,7 +76,7 @@
     <!-- LEFT WHEEL LINK -->
     <joint name="left_wheel_joint" type="continuous">
         <origin xyz="-0.085 -0.0475 0.02" rpy="0 0 0"/>
-        <parent link="base_link"/>
+        <parent link="chassis"/>
         <child link="left_wheel_1"/>
         <axis xyz="-1.0 0.0 0.0"/>
     </joint>
@@ -105,7 +105,7 @@
     <!-- RIGHT WHEEL LINK -->
     <joint name="right_wheel_joint" type="continuous">
         <origin xyz="0.09 -0.0475 0.02" rpy="0 0 0"/>
-        <parent link="base_link"/>
+        <parent link="chassis"/>
         <child link="right_wheel_1"/>
         <axis xyz="-1.0 0.0 0.0"/>
     </joint>
@@ -246,7 +246,7 @@
     <!-- IMU SENSOR LINK -->
     <joint name="imu_joint" type="fixed">
         <origin xyz="0 0 0" rpy="0 0 0" />
-        <parent link="base_link"/>
+        <parent link="chassis"/>
         <child link="imu_link" />
     </joint>
 
