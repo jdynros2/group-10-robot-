@@ -9,6 +9,8 @@ cd ~/ros2_ws
 
 source install/setup.bash
 
+export GZ_SIM_RESOURCE_PATH=$HOME/ros2_ws/src/r2d10/worlds/models:$GZ_SIM_RESOURCE_PATH
+
 ros2 launch r2d10 launchfile2.py
 
 

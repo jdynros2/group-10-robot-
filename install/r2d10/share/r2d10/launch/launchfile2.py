@@ -13,7 +13,7 @@ def generate_launch_description():
     package_name='r2d10'
 
     pkg_r2d10 = get_package_share_directory(package_name)
-    os.environ["GZ_SIM_RESOURCE_PATH"] = pkg_r2d10
+    os.environ["GZ_SIM_RESOURCE_PATH"]+= os.pathsep + os.path.join(pkg_r2d10, "models")
 
     # Launch configurations
     world = LaunchConfiguration('world')
@@ -96,6 +96,38 @@ def generate_launch_description():
              ]
     )
 
+#     camera_bridge = Node(
+#         package='ros_gz_bridge',
+#         executable='parameter_bridge',
+#         name='camera_bridge',
+#         output='screen',
+#         arguments=[
+#             '/world/empty/model/assembly_3/link/camera_link/sensor/front_camera/image'
+#             '@sensor_msgs/msg/Image[gz.msgs.Image',
+#             '/world/empty/model/assembly_3/link/camera_link/sensor/front_camera/camera_info'
+#             '@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo',
+#             '--ros-args',
+#             '-r', '/world/empty/model/assembly_3/link/camera_link/sensor/front_camera/image:=/camera/image_raw',
+#             '-r', '/world/empty/model/assembly_3/link/camera_link/sensor/front_camera/camera_info:=/camera/camera_info',
+#     ],
+# )
+
+# # Face detection node
+#     face_detector = Node(
+#         package='r2d10',
+#         executable='facedetection1.py',
+#         name='face_detector',
+#         output='screen',
+#         parameters=[
+#             {'image_topic': '/camera/image_raw'},
+#             {'save_snapshots': True},
+#             {'snapshot_dir': 'face_snapshots'},
+#     ],
+# )
+
+
+    
+
     # Launch them all!
     return LaunchDescription([
         # Declare launch arguments
@@ -110,4 +142,6 @@ def generate_launch_description():
         ros_gz_bridge,
         spawn_r2d10,
         ekf_node,
+        # camera_bridge,
+        # face_detector,
     ])

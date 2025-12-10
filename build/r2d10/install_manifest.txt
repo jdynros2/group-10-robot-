@@ -10,18 +10,7 @@
 /home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/inertial_macros.xacro
 /home/group10/ros2_ws/install/r2d10/share/r2d10//urdf/assembly_3.urdf.xacro
 /home/group10/ros2_ws/install/r2d10/share/r2d10//rviz/default.rviz
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.bash
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.bash
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/_local_setup_util_ps1.py
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/.colcon_install_layout
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.sh
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.sh
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.ps1
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.ps1
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/setup.zsh
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/COLCON_IGNORE
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/_local_setup_util_sh.py
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/install/local_setup.zsh
+/home/group10/ros2_ws/install/r2d10/share/r2d10//rviz/nav2.rviz
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials/meshes/未命名.dae
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/floor materials/materials/textures/floor_texture.png
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/kitchencountertop/meshes/KitchenCountertop_Diffuse.png
@@ -141,6 +130,20 @@
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model.sdf
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model.config
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/bookshelf/model-1_2.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/meshes/ClassCWindow.glb
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/meshes/Texture/ClassCRoom_Albedo.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/meshes/Texture/ClassCRoom_Roughness.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/meshes/Texture/ClassCRoom_Normal.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/meshes/Texture/ClassCRoom_Opacity.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/meshes/Texture/ClassCRoom_Metalness.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/meshes/Mesh/ClassCRoomWindow.dae
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/thumbnails/4.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/thumbnails/5.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/thumbnails/3.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/thumbnails/2.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/thumbnails/1.png
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/model.sdf
+/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/ClassCWindow/model.config
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/meshes/officechair.dae
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/thumbnails/OfficeChair.png
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/materials/textures/OfficeChair_Normal.png
@@ -150,15 +153,8 @@
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/model.sdf
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/models/office chair/model.config
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/church_simple.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/build_2025-10-29_10-49-16/logger_all.log
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/build_2025-10-29_10-49-16/events.log
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest_build
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/COLCON_IGNORE
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/log/latest
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/test.sdf
 /home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/church.sdf
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/build/.built_by
-/home/group10/ros2_ws/install/r2d10/share/r2d10//worlds/build/COLCON_IGNORE
 /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/updated_launchfile.py
 /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/worldlaunch2.py
 /home/group10/ros2_ws/install/r2d10/share/r2d10//launch/__pycache__/worldlaunch2_updated.cpython-312.pyc
