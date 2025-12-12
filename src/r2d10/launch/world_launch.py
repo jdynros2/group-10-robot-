@@ -62,7 +62,7 @@ def generate_launch_description():
                                    '-R', '0.0',
                                    '-P', '0.0',
                                    '-Y', '1.57',
-                                   '-x', '-4.0',
+                                   '-x', '6.0',
                                    '-y', '3.0',
                                    '-z', '0.2'],
                         output='screen'
@@ -117,7 +117,7 @@ def generate_launch_description():
     ]
 )
 
-face_detector = Node(
+    face_detector = Node(
     package='r2d10',
     executable='facedetection1.py',
     name='face_detector',

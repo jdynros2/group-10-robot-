@@ -13,11 +13,15 @@ export GZ_SIM_RESOURCE_PATH=$HOME/ros2_ws/src/r2d10/worlds/models:$GZ_SIM_RESOUR
 
 ros2 launch r2d10 world_launch.py
 
+[RUN NAV2]
+
+ros2 launch r2d10 statepublish.py
+
+ros2 launch r2d10_navigation navigation.launch.py use_sim_time:=true
+
 
 [ROBOT LOADED INTO RVIZ]
 --
-Note:
-{Human model head needs added without crashing the simulation} 
 
 cd ~/ros2_ws
 
