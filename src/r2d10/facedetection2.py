@@ -23,15 +23,24 @@ class FaceDetector(Node):
         self.save_snapshots = self.get_parameter('save_snapshots').get_parameter_value().bool_value
         self.snapshot_dir = self.get_parameter('snapshot_dir').get_parameter_value().string_value
 
-        #directory for snapshots
+        # IMPORTANT: Track if we've already taken a snapshot
+        self.snapshot_taken = False
+
+        # Directory for snapshots
         if self.save_snapshots and not os.path.exists(self.snapshot_dir):
             os.makedirs(self.snapshot_dir, exist_ok=True)
             self.get_logger().info(f'Created snapshot directory: {self.snapshot_dir}')
 
         # For locating the Haar cascade within the r2d10 package 
         pkg_dir = os.path.dirname(__file__)
-        cascade_path = os.path.join(pkg_dir, '..', '..', 'share', 'r2d10', 'data', 'haarcascade_frontalface_default.xml')
-        cascade_path = os.path.realpath(cascade_path)
+        cascade_path = os.path.join(pkg_dir, 'data', 'haarcascade_frontalface_default.xml')
+        
+        # Try multiple locations
+        if not os.path.isfile(cascade_path):
+            cascade_path = '/usr/share/opencv4/haarcascades/haarcascade_frontalface_default.xml'
+        
+        if not os.path.isfile(cascade_path):
+            cascade_path = '/usr/share/opencv/haarcascades/haarcascade_frontalface_default.xml'
 
         self.get_logger().info(f'Using Haar cascade: {cascade_path}')
 
@@ -45,21 +54,24 @@ class FaceDetector(Node):
                 self.get_logger().error('Failed to load Haar cascade. Face detection will not work.')
                 self.face_cascade = None
             else:
-                self.get_logger().info(f'Using Haar cascade: {cascade_path}')
+                self.get_logger().info('Haar cascade loaded successfully!')
                 
-        self.bridge = CvBridge() #Cv bridge 
+        self.bridge = CvBridge()
         
-        # Subscriber is the raw camera image
+        # Subscriber to raw camera image
         self.image_sub = self.create_subscription(Image, image_topic, self.image_callback, 10)
 
-        # Publisher is the annotated image with boxes
+        # Publisher for annotated image with boxes
         self.face_image_pub = self.create_publisher(Image, '/camera/face_image', 10)
 
         self.get_logger().info(f'FaceDetector node started. Subscribing to {image_topic}')
 
     def image_callback(self, msg: Image):
-        self.get_logger().info('image_callback called')
+        # Don't log every callback - too much spam
         
+        if self.face_cascade is None:
+            return
+            
         try:
             cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
         except Exception as e:
@@ -68,34 +80,39 @@ class FaceDetector(Node):
 
         gray = cv2.cvtColor(cv_image, cv2.COLOR_BGR2GRAY)
 
-        # face detection
-        faces = self.face_cascade.detectMultiScale(gray, scaleFactor=1.3, minNeighbors=5, minSize=(30, 30))
+        # Face detection
+        faces = self.face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
 
-        self.get_logger().info(f'Faces array: {faces}')
-
-        if len(faces) > 0:
-            self.get_logger().info(f'Detected {len(faces)} face(s)')
+        if len(faces) > 0 and not self.snapshot_taken:
+            self.get_logger().info(f'✓ FACE DETECTED! Found {len(faces)} face(s)')
 
             # Draw rectangles
             for (x, y, w, h) in faces:
                 cv_image = cv2.rectangle(cv_image, (x, y), (x + w, y + h), (0, 255, 0), 2)
+                # Add text
+                cv2.putText(cv_image, 'FACE DETECTED', (x, y-10), 
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
-            # saving the snapshot
+            # Save snapshot ONCE
             if self.save_snapshots:
-                timestamp = datetime.now().strftime('%Y%m%d_%H%M%S_%f')
-                filename = os.path.join(self.snapshot_dir, f'face_{timestamp}.png')
+                timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+                filename = os.path.join(self.snapshot_dir, f'face_capture_{timestamp}.png')
                 try:
                     cv2.imwrite(filename, cv_image)
-                    self.get_logger().info(f'Snapshot saved: {filename}')
+                    self.get_logger().info(f'✓ SNAPSHOT SAVED: {filename}')
+                    self.snapshot_taken = True  # Never take another snapshot
                 except Exception as e:
                     self.get_logger().warn(f'Failed to save snapshot: {e}')
-        else:
-            self.get_logger().info('No faces detected in this frame')
+                    
+        elif self.snapshot_taken:
+            # Add completion message to image
+            cv2.putText(cv_image, 'SNAPSHOT COMPLETE', (50, 50), 
+                       cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
-        # to publish the annotated images
+        # Publish the annotated image
         try:
             out_msg = self.bridge.cv2_to_imgmsg(cv_image, encoding='bgr8')
-            out_msg.header = msg.header  # keep timestamp/frame_id
+            out_msg.header = msg.header
             self.face_image_pub.publish(out_msg)
         except Exception as e:
             self.get_logger().warn(f'Failed to publish annotated image: {e}')
@@ -114,5 +131,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-
-

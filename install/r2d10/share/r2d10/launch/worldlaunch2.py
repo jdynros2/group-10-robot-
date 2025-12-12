@@ -1,1 +1,0 @@
-/home/group10/ros2_ws/src/r2d10/launch/worldlaunch2.py

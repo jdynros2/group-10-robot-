@@ -69,7 +69,7 @@ class FaceDetector(Node):
         gray = cv2.cvtColor(cv_image, cv2.COLOR_BGR2GRAY)
 
         # face detection
-        faces = self.face_cascade.detectMultiScale(gray, scaleFactor=1.3, minNeighbors=5, minSize=(30, 30))
+        faces = self.face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=3, minSize=(30, 30))
 
         self.get_logger().info(f'Faces array: {faces}')
 
