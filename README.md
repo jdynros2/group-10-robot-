@@ -3,7 +3,7 @@ AUTONOMOUS NAVIGATION ROBOT 'R2D10'
 MOST RECENT
 How to run:
 
-[ROBOT LOADED INTO RVIS]
+[ROBOT LOADED INTO Gazebo]
 --
 cd ~/ros2_ws
 
@@ -14,7 +14,7 @@ export GZ_SIM_RESOURCE_PATH=$HOME/ros2_ws/src/r2d10/worlds/models:$GZ_SIM_RESOUR
 ros2 launch r2d10 launchfile2.py
 
 
-[ROBOT LOADED INTO WORLD]
+[ROBOT LOADED INTO RVIZ]
 --
 Note:
 {Human model head needs added without crashing the simulation} 
