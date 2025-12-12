@@ -102,19 +102,19 @@ def generate_launch_description():
     )
 
     camera_bridge = Node(
-         package='ros_gz_bridge',
-         executable='parameter_bridge',
-         name='camera_bridge',
-         output='screen',
-        arguments=[
-            '/world/empty/model/assembly_3/link/camera_link/sensor/front_camera/image'
-            '@sensor_msgs/msg/Image[gz.msgs.Image',
-            '/world/empty/model/assembly_3/link/camera_link/sensor/front_camera/camera_info'
-            '@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo',
-            '--ros-args',
-            '-r', '/world/empty/model/assembly_3/link/camera_link/sensor/front_camera/image:=/camera/image_raw',
-            '-r', '/world/empty/model/assembly_3/link/camera_link/sensor/front_camera/camera_info:=/camera/camera_info',
+    package='ros_gz_bridge',
+    executable='parameter_bridge',
+    name='camera_bridge',
+    output='screen',
+    arguments=[
+        '/camera/image_raw@sensor_msgs/msg/Image@gz.msgs.Image',
+        '/camera/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo',
     ],
+    parameters=[{'use_sim_time': True}],
+    remappings=[
+        ('/camera/image_raw', '/camera/image_raw'),
+        ('/camera/camera_info', '/camera/camera_info'),
+    ]
 )
 
 # Face detection node
