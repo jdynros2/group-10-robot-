@@ -1,0 +1,17 @@
+digraph G {
+"map" -> "odom"[label=" Broadcaster: default_authority\nAverage rate: 9.412\nBuffer length: 1.7\nMost recent transform: 301.4\nOldest transform: 299.7\n"];
+"odom" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 30.38\nBuffer length: 1.58\nMost recent transform: 299.43\nOldest transform: 297.85\n"];
+"chassis" -> "left_wheel_1"[label=" Broadcaster: default_authority\nAverage rate: 20.645\nBuffer length: 1.55\nMost recent transform: 299.427\nOldest transform: 297.877\n"];
+"base_link" -> "chassis"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "right_wheel_1"[label=" Broadcaster: default_authority\nAverage rate: 20.645\nBuffer length: 1.55\nMost recent transform: 299.427\nOldest transform: 297.877\n"];
+"chassis" -> "caster_1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "imu_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "lidar_1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "ultrasonic_forward_1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "ultrasonic_left_1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "ultrasonic_right_1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1765470070.3132815"[ shape=plaintext ] ;
+}->"map";
+}

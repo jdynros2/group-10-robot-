@@ -20,15 +20,15 @@ install(
   rviz
   worlds
   launch 
-  # data
+  data
   config
   DESTINATION share/${PROJECT_NAME}/
 )
 
-# install(PROGRAMS
-#   facedetection1.py
-#   DESTINATION lib/${PROJECT_NAME} 
-# )
+install(PROGRAMS
+  facedetection1.py
+  DESTINATION lib/${PROJECT_NAME} 
+)
 
 
 ament_package()

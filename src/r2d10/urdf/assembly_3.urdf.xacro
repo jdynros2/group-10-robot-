@@ -275,7 +275,7 @@
 
 
     <!-- CAMERA LINK -->
-    <!-- <link name="camera_link">
+    <link name="camera_link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0.1"/>
@@ -296,9 +296,14 @@
         <box size="0.05 0.05 0.05"/>
       </geometry>
     </collision>
-  </link> --> 
+  </link>
+<joint name="camera_mount" type="fixed">
+    <parent link="chassis"/>
+    <child link="camera_link"/>
 
-    <!-- <gazebo reference="camera_link">
+    <origin xyz="0 0 0.12" rpy="0 0 0"/>
+  </joint> 
+    <gazebo reference="camera_link">
     <sensor name="front_camera" type="camera">
       <always_on>1</always_on>
       <update_rate>10</update_rate>
@@ -316,15 +321,8 @@
           <far>20.0</far>
         </clip>
       </camera>
-    </sensor> -->
-
-  <!-- <joint name="camera_mount" type="fixed">
-    <parent link="base_link"/>
-    <child link="camera_link"/>
-
-    <origin xyz="0 0 0.12" rpy="0 0 0"/>
-  </joint> -->
-  <!-- </gazebo> -->
+    </sensor>
+  </gazebo> 
 
 
 </robot>
