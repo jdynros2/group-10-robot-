@@ -11,7 +11,7 @@ source install/setup.bash
 
 export GZ_SIM_RESOURCE_PATH=$HOME/ros2_ws/src/r2d10/worlds/models:$GZ_SIM_RESOURCE_PATH
 
-ros2 launch r2d10 launchfile2.py
+ros2 launch r2d10 world_launch.py
 
 
 [ROBOT LOADED INTO RVIZ]
@@ -23,7 +23,7 @@ cd ~/ros2_ws
 
 source install/setup.bash
 
-ros2 launch r2d10 worldlaunch2.py
+ros2 launch r2d10 rviz2_launch.py
 
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
