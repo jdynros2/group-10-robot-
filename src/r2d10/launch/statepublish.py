@@ -1,3 +1,4 @@
+import os
 from launch_ros.actions import Node
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
@@ -15,10 +16,11 @@ def generate_launch_description():
     
     # Launch configurations
     use_sim_time = LaunchConfiguration('use_sim_time')
+    urdf_file = LaunchConfiguration('urdf')
 
     # Declare launch arguments
     declare_use_sim_time = DeclareLaunchArgument(
-            'use_sim_time', default_value='false',
+            'use_sim_time', default_value='true',
             description='Use sim time if true')
 
     declare_urdf = DeclareLaunchArgument(
@@ -31,7 +33,9 @@ def generate_launch_description():
         executable='robot_state_publisher',
         name='robot_state_publisher',
         output='screen',
-        parameters=[{'use_sim_time': use_sim_time,'robot_description': Command(['xacro', ' ', urdf_path]),}],
+        parameters=[{'use_sim_time': use_sim_time,
+                     'robot_description': Command(['xacro', ' ', urdf_file])
+                    }],
     )
 
     # Launch!
