@@ -117,16 +117,16 @@ def generate_launch_description():
     ]
 )
 
-# Face detection node
-    face_detector = Node(
-        package='r2d10',
-        executable='facedetection1.py',
-        name='face_detector',
-        output='screen',
-        parameters=[
-            {'image_topic': '/camera/image_raw'},
-            {'save_snapshots': True},
-            {'snapshot_dir': 'face_snapshots'},
+face_detector = Node(
+    package='r2d10',
+    executable='facedetection1.py',
+    name='face_detector',
+    output='screen',
+    parameters=[
+        {'image_topic': '/camera/image_raw'},
+        {'save_snapshots': True},
+        {'snapshot_dir': os.path.expanduser('~/ros2_ws/face_snapshots')},
+        {'use_sim_time': True}
     ],
 )
 
