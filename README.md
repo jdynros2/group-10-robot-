@@ -13,6 +13,8 @@ export GZ_SIM_RESOURCE_PATH=$HOME/ros2_ws/src/r2d10/worlds/models:$GZ_SIM_RESOUR
 
 ros2 launch r2d10 world_launch.py
 
+rviz2 {needs to open image instantly}
+
 [RUN NAV2]
 --
 
@@ -21,14 +23,7 @@ ros2 launch r2d10 statepublish.py
 ros2 launch r2d10_navigation navigation.launch.py use_sim_time:=true
 
 
-[ROBOT LOADED INTO RVIZ]
---
-
-cd ~/ros2_ws
-
-source install/setup.bash
-
-ros2 launch r2d10 rviz2_launch.py
+[if auto nav doesnt work]
 
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
@@ -37,7 +32,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 Problems and work to be done 
 ---
-NAV, face detection integration, report writing.
+navigate towards face script, report writing.
 
 
 SAVING to the repo
