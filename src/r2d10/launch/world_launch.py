@@ -107,13 +107,11 @@ def generate_launch_description():
     name='camera_bridge',
     output='screen',
     arguments=[
-        '/camera/image_raw@sensor_msgs/msg/Image@gz.msgs.Image',
+        '/camera/image@sensor_msgs/msg/Image@gz.msgs.Image',
         '/camera/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo',
     ],
-    parameters=[{'use_sim_time': True}],
     remappings=[
-        ('/camera/image_raw', '/camera/image_raw'),
-        ('/camera/camera_info', '/camera/camera_info'),
+        ('/camera/image', '/camera/image_raw'),
     ]
 )
 
@@ -123,7 +121,7 @@ def generate_launch_description():
     name='face_detector',
     output='screen',
     parameters=[
-        {'image_topic': '/camera/image_raw'},
+        {'image_topic': '/camera/image_raw'},  # Match the remapped topic
         {'save_snapshots': True},
         {'snapshot_dir': os.path.expanduser('~/ros2_ws/face_snapshots')},
         {'use_sim_time': True}
@@ -145,6 +143,5 @@ def generate_launch_description():
         spawn_r2d10,
         ekf_node,
         camera_bridge,
-        
         face_detector,
     ])

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <robot>
+
     <!-- DIFFERENTIAL DRIVE PLUGIN -->
     <gazebo>
         <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
