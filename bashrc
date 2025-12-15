@@ -1,1 +1,0 @@
-export TURTLEBOT3_MODEL=waffle
