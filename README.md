@@ -15,6 +15,12 @@ ros2 launch r2d10 world_launch.py
 
 rviz2 {needs to open image instantly}
 
+[face detector and screenshotting]
+--
+cd src/r2d10
+
+ros2 run r2d10 facedetection1.py
+
 [RUN NAV2]
 --
 
