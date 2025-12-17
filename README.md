@@ -14,6 +14,12 @@ export GZ_SIM_RESOURCE_PATH=$HOME/ros2_ws/src/r2d10/worlds/models:$GZ_SIM_RESOUR
 
 ros2 launch r2d10 full_system.launch.py
 
+
+
+
+
+
+
 *gazebo opens + robot spawns*
 
 ros2 launch r2d10 statepublish.py
