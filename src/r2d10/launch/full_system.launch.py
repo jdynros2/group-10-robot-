@@ -44,8 +44,22 @@ def generate_launch_description():
         ]
     )
     
+    # Auto navigate to face after 18 seconds
+    auto_nav = TimerAction(
+        period=18.0,
+        actions=[
+            Node(
+                package='r2d10',
+                executable='auto_navigate.py',
+                name='auto_navigate',
+                output='screen'
+            )
+        ]
+    )
+    
     return LaunchDescription([
         world_launch,
         nav_launch,
-        robot_rviz
+        robot_rviz,
+        auto_nav
     ])

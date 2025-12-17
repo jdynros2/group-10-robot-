@@ -12,7 +12,6 @@ find_package(xacro REQUIRED)
 find_package(robot_state_publisher REQUIRED)
 find_package(ros_gz_sim REQUIRED)
 
-
 install(
   DIRECTORY 
   meshes
@@ -22,13 +21,14 @@ install(
   launch 
   data
   config
+  scripts
   DESTINATION share/${PROJECT_NAME}/
 )
 
 install(PROGRAMS
   facedetection1.py
+  scripts/auto_navigate.py
   DESTINATION lib/${PROJECT_NAME} 
 )
-
 
 ament_package()
