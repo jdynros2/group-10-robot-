@@ -42,7 +42,7 @@ Problems and work to be done
 ---
 *LIGHT SOURCE TO BE SAVED NEAR HUMAN FACE SO CAMERA WORKS*, report writing.
 
-Complete auto navigation
+Auto add a goal to auto_navigate
 
 
 
