@@ -38,13 +38,6 @@ rviz2
 
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
-Problems and work to be done 
----
-*LIGHT SOURCE TO BE SAVED NEAR HUMAN FACE SO CAMERA WORKS*, report writing.
-
-Auto add a goal to auto_navigate
-
-
 
 
 SAVING to the repo
