@@ -14,7 +14,7 @@ export GZ_SIM_RESOURCE_PATH=$HOME/ros2_ws/src/r2d10/worlds/models:$GZ_SIM_RESOUR
 
 ros2 launch r2d10 full_system.launch.py
 
-
+*This opens the Gazebo wnidow with the robot inside of it after delays it opens an Rviz2 window with Nav2 and a windows with the robot in regular Rviz2 window. After some time for the systems to all launch an process the Nav2 window automatically sets the initial pose of the robot, however the goal needs to be set manualy. The regular Rviz window usually also automatically opens the camera, however if that does not happen, it can be launched by goig into the left side panel, clicking "Add" then going into the "by topic" section and selecting the "image" under the topic, it is the topic which doesnt say raw.*
 
 
 
